@@ -70,7 +70,7 @@ a:hover, a:focus{color:#c00;background-color:#f00;}
 .logo {
   display: block;
   margin: 0 auto;
-  width: 50%;
+  width: 50vw;
 }	
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
