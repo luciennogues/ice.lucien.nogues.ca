@@ -43,6 +43,7 @@ samp {
 }
 
 body {
+	width:100vw;
 margin:0;
 padding:0;
 font-family: "Helvetica Neue LT Std 55 Roman", Helvetica, Arial, sans-serif;
