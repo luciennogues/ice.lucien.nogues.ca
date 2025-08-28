@@ -63,9 +63,7 @@ fill: currentColor;
 .hidden {
 	display: none !important;
 }
-.p-honorific-prefix,.p-tel > .type {
-		display: none !important;
-}
+
 
 a {text-decoration: underline;}
 a:link, a:visited {color:#000;}
@@ -87,7 +85,10 @@ padding:0;
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 800px) {
 	body {
-		font-size:1.2em;
-		font-size:1.2vw;
+		font-size:1.4em;
+		font-size:1.4vw;
 	}
+	.p-honorific-prefix,.p-tel > .type {
+		display: none !important;
+}
 }
