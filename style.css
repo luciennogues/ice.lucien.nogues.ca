@@ -85,8 +85,8 @@ padding:0;
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 800px) {
 	body {
-		font-size:1.4em;
-		font-size:1.4vw;
+		font-size:2em;
+		font-size:2vw;
 	}
 	.p-honorific-prefix,.p-tel > .type {
 		display: none !important;
