@@ -63,7 +63,9 @@ fill: currentColor;
 .hidden {
 	display: none !important;
 }
-
+.p-honorific-prefix,.p-tel > .type {
+		display: none !important;
+}
 
 a {text-decoration: underline;}
 a:link, a:visited {color:#000;}
