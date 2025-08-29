@@ -1,6 +1,6 @@
 /* passer body (et tous les éléments de largeur fixe) en largeur automatique */
 
-* {box-sizing: border-box;}
+* {box-sizing:border-box;}
 
 /* fixer une largeur maximale de 100% aux éléments potentiellement problématiques */
 
@@ -21,7 +21,7 @@ video {
 
 /* conserver le ratio des images */
 img {
-	height: auto;
+	height:auto;
 }
 	
 /* gestion des mots longs */
@@ -39,7 +39,7 @@ samp {
 	
 code,
 samp {
-	white-space: pre-wrap; /* passage à la ligne spécifique pour les éléments à chasse  fixe */
+	white-space:pre-wrap; /* passage à la ligne spécifique pour les éléments à chasse  fixe */
 }
 
 body {
@@ -47,9 +47,9 @@ max-width:100%;
 max-width:100vw;
 margin:0;
 padding:0;
-font-family: "Helvetica Neue LT Std 55 Roman", Helvetica, Arial, sans-serif;
-font-style: normal;
-text-align: center;
+font-family:"Helvetica Neue LT Std 55 Roman", Helvetica, Arial, sans-serif;
+font-style:normal;
+text-align:center;
 background-color:#fff;
 color:#000;
 font-size:3.5em;
@@ -57,30 +57,30 @@ font-size:3.5vw;
 }
 
 svg {
-fill: currentColor;
+fill:currentColor;
 }
 /* masquer les éléments superflus */
 .hidden {
-	display: none !important;
+	display:none !important;
 }
 
 
-a {text-decoration: underline;}
+a {text-decoration:underline;}
 a:link, a:visited {color:#000;}
 a:hover, a:focus{color:#c00;background-color:#f00;}
 
 .logo {
-  display: block;
-  margin: 0 auto;
-  width: 50vw;
+  display:block;
+  margin:0 auto;
+  width:50vw;
 }	
 ul {
 list-style-type:none;
 text-align:left;
-	  display: block;
-margin: 0 auto 1em;
-	width: 100%;
-    width: 100vw;
+	  display:block;
+margin:0 auto 1em;
+	width:100%;
+    width:100vw;
 padding:0;
 }
 li {
@@ -89,16 +89,18 @@ li {
 	
 }
 li > a {
+		  display:block;
+margin:0;
 	height:100%;
 	height:100vh;
 	   }
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width:600px) {
 	body {
 		font-size:8em;
 		font-size:8vw;
 	}
 	.p-honorific-prefix,.p-tel > .type {
-		display: none !important;
+		display:none !important;
     }
 }
