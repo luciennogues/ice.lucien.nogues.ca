@@ -84,7 +84,7 @@ margin: 0 auto 1em;
 padding:0;
 }
 li {
-    
+    height:10vh;
 	padding:2vw;
 	
 }
@@ -95,8 +95,8 @@ li > a {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 	body {
-		font-size:4em;
-		font-size:4vw;
+		font-size:8em;
+		font-size:8vw;
 	}
 	.p-honorific-prefix,.p-tel > .type {
 		display: none !important;
