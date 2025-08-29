@@ -95,8 +95,8 @@ li > a {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 	body {
-		font-size:2em;
-		font-size:2vw;
+		font-size:4em;
+		font-size:4vw;
 	}
 	.p-honorific-prefix,.p-tel > .type {
 		display: none !important;
