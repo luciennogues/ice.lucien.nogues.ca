@@ -65,9 +65,10 @@ fill:currentColor;
 }
 
 
-a {text-decoration:underline;}
+/*a {text-decoration:underline;}
 a:link, a:visited {color:#000;}
 a:hover, a:focus{color:#c00;background-color:#f00;}
+*/
 
 .logo {
   display:block;
@@ -88,6 +89,35 @@ li {
     height:10vh;
 	padding:2vw;
 	
+}
+
+a {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #6200EE;   /* Violet Material Design */
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;          /* Légers coins arrondis */
+  font-size: 16px;
+  font-weight: 500;            /* Semi-gras typique Material */
+  letter-spacing: .5px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2); /* Ombre douce */
+  transition: background 0.3s, box-shadow 0.3s, transform 0.2s;
+}
+
+/* Survol */
+a:hover {
+  background-color: #3700B3;   /* Violet plus foncé */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transform: translateY(-2px); /* Léger relief */
+}
+
+/* Clic */
+a:active {
+  background-color: #30009C;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transform: translateY(0);
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
