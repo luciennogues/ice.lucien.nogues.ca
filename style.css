@@ -84,7 +84,7 @@ margin:0 auto 1em;
 padding:0;
 }
 li {
-	background-color:#0060AE;
+	
   display:block;
 	font-size: 6vw;
 	font-weight: 500;
@@ -106,6 +106,7 @@ a {
     top: 0; left: 0; right: 0; bottom: 0;
 z-index: 50;
   display: block;
+	background-color:#0060AE;
   padding-top:8vh;
   /*background-color: #6200EE;   /* Violet Material Design */
   /*color: white;*/
