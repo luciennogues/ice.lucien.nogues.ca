@@ -101,7 +101,7 @@ li {
 a {
 	position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-
+z-index: 50;
   display: block;
   padding: 3vh 4vw 2vh;
   /*background-color: #6200EE;   /* Violet Material Design */
