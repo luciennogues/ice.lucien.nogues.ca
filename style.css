@@ -84,6 +84,7 @@ margin:0 auto 1em;
 padding:0;
 }
 li {
+	background-color:#0060AE;
   display:block;
 	font-size: 6vw;
 	font-weight: 500;
@@ -118,7 +119,7 @@ z-index: 50;
 
 /* Survol */
 a:hover {
-  background-color: #3700B3;   /* Violet plus foncé */
+  background-color: #88898C;   /* Violet plus foncé */
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   transform: translateY(-2px); /* Léger relief */
 }
