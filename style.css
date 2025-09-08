@@ -91,7 +91,7 @@ display:block;
     height:14vh;
 	padding:2vh;
 	margin:0 auto;
-	border-radius: 7vh;
+	border-radius: 0 7vh 7vh 0;
 	width:100%;
     width:100vw;	
 }
@@ -103,13 +103,13 @@ display:block;
 .h-card a {
 	position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-z-index: 50;
+
   display: block;
-  padding-top:8vh;
+  padding:8vh auto auto 2vh;
   text-decoration: none;
-  border-radius: 7vh;
+  border-radius:  0 7vh 7vh 0;
   letter-spacing: .5vw;
-  text-align: center;
+  text-align: left;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2); /* Ombre douce */
   transition: background 0.3s, box-shadow 0.3s, transform 0.2s;
 }
@@ -121,7 +121,7 @@ z-index: 50;
   transform: translateY(-2px); /* Léger relief */
 }
 
-.p-name {z-index: 100;}
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width:700px) {
