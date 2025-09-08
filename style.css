@@ -114,8 +114,8 @@ color:#88898c;
 }
 
 /* Survol */
-.h-card a:hover a:active {
-  background-color: #88898C;   /* Violet plus foncé */
+.h-card a:hover,.h-card a:active {
+  background-color: #88898C;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   transform: translateY(-2px); /* Léger relief */
 }
