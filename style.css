@@ -43,15 +43,14 @@ samp {
 }
 
 body {
-max-width:100%;
+max-width:600px;
 max-width:100vw;
-margin:0;
+margin:auto 0;
 padding:0;
 font-family:"Helvetica Neue LT Std 55 Roman", Helvetica, Arial, sans-serif;
 font-style:normal;
 text-align:center;
-background-color:#fff;
-color:#000;
+color:#0060ae;
 font-size:3.5em;
 font-size:3.5vw;
 }
@@ -84,8 +83,7 @@ margin:0 auto 1em;
 padding:0;
 }
 li {
-	
-  display:block;
+display:block;
 	font-size: 6vw;
 	font-weight: 500;
 	text-align:center;
@@ -101,15 +99,13 @@ li {
 .h-card {
     position: relative; /* pour que le lien se cale sur le li */
 }
-a {
+.h-card a {
 	position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
 z-index: 50;
   display: block;
 	background-color:#0060AE;
   padding-top:8vh;
-  /*background-color: #6200EE;   /* Violet Material Design */
-  /*color: white;*/
   text-decoration: none;
   border-radius: 7vh;          /* Légers coins arrondis */
   letter-spacing: .5vw;
@@ -119,14 +115,14 @@ z-index: 50;
 }
 
 /* Survol */
-a:hover {
+.h-card a:hover {
   background-color: #88898C;   /* Violet plus foncé */
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   transform: translateY(-2px); /* Léger relief */
 }
 
 /* Clic */
-a:active {
+.h-card a:active {
   background-color: #30009C;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   transform: translateY(0);
