@@ -82,28 +82,27 @@ margin:0 auto 1em;
     width:100vw;
 padding:0;
 }
-li {
-display:block;
+
+
+
+.h-card {
+    position: relative; /* pour que le lien se cale sur le li */
+	display:block;
 	background-color:#0060AE;
 	font-size: 6vw;
 	font-weight: 500;
-	text-align:center;
+	text-align:left;
     height:14vh;
 	padding:2vh;
 	margin:0 auto;
 	border-radius: 0 7vh 7vh 0;
 	width:100%;
-    width:100vw;	
-}
-
-
-.h-card {
-    position: relative; /* pour que le lien se cale sur le li */
+    width:100vw;
 }
 .h-card a {
 	position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-
+color:#88898c;
   display: block;
   padding:8vh 2vh 2vh;
   text-decoration: none;
