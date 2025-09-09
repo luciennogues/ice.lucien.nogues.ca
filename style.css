@@ -81,7 +81,7 @@ position: relative; /* pour que le lien se cale sur le li */
 display:block;
 background-color:#0060ae;
 color:#fff;
-font-size: 2em;
+font-size: 2vw;
 font-weight: 500;
 text-align:left;
 height:14vh;
