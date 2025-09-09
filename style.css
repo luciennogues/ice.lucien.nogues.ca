@@ -43,7 +43,7 @@ white-space:pre-wrap; /* passage à la ligne spécifique pour les éléments à 
 }
 
 body {
-max-width:800px;
+max-width:600px;
 margin:auto 0;
 padding:0;
 font-family:"Helvetica Neue LT Std 55 Roman", Helvetica, Arial, sans-serif;
