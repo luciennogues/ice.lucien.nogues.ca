@@ -80,7 +80,7 @@ position: relative; /* pour que le lien se cale sur le li */
 display:block;
 background-color:#0060ae;
 color:#fff;
-font-size: 8vw;
+font-size: 7vw;
 font-weight: 500;
 text-align:left;
 height:18vw;
@@ -95,7 +95,7 @@ top: 0; left: 0; bottom: 0;
 color:#fff;
 display: block;
 width:100%;
-padding:9vw 0 0 1vw;
+padding:8vw 0 0 1vw;
 text-decoration: none;
 border-radius:0 9vw 9vw 0;
 letter-spacing: .5vw;
