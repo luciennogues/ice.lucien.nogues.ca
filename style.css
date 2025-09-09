@@ -66,6 +66,7 @@ display:block;
 margin:0 auto;
 width:50vw;
 }
+
 ul {
 position: relative;
 list-style-type:none;
@@ -95,7 +96,7 @@ top: 0; left: 0; bottom: 0;
 color:#fff;
 display: block;
 width:100%;
-padding-top:7vh;
+padding:7vh 0 0 1vh;
 text-decoration: none;
 border-radius:0 7vh 7vh 0;
 letter-spacing: .5vh;
