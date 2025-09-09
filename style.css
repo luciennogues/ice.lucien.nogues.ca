@@ -50,7 +50,7 @@ padding:0;
 font-family:"Helvetica Neue LT Std 55 Roman", Helvetica, Arial, sans-serif;
 font-style:normal;
 text-align:center;
-color:#88898c;
+color:#fff;
 font-size:3.5em;
 font-size:3.5vw;
 }
@@ -102,7 +102,7 @@ padding:0;
 .h-card a {
 	position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-color:#88898c;
+color:#fff;
   display: block;
   padding:8vh 0 2vh 2vh;
   text-decoration: none;
