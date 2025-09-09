@@ -50,7 +50,7 @@ padding:0;
 font-family:"Helvetica Neue LT Std 55 Roman", Helvetica, Arial, sans-serif;
 font-style:normal;
 text-align:center;
-color:#fff;
+color:#000;
 font-size:3.5em;
 font-size:3.5vw;
 }
@@ -86,7 +86,8 @@ padding:0;
 .h-card {
     position: relative; /* pour que le lien se cale sur le li */
 	display:block;
-	background-color:#0060AE;
+	background-color:#0060ae;
+	color:#fff;
 	font-size: 6vw;
 	font-weight: 500;
 	text-align:left;
