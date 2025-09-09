@@ -51,7 +51,6 @@ font-style:normal;
 text-align:center;
 color:#000;
 font-size:4em;
-font-size:4vw;
 }
 
 svg {
@@ -86,7 +85,7 @@ position: relative; /* pour que le lien se cale sur le li */
 display:block;
 background-color:#0060ae;
 color:#fff;
-font-size: 6vw;
+font-size: 6vh;
 font-weight: 500;
 text-align:left;
 height:14vh;
@@ -104,7 +103,7 @@ width:100%;
 padding:8vh 0 2vh 2vh;
 text-decoration: none;
 border-radius:0 7vh 7vh 0;
-letter-spacing: .5vw;
+letter-spacing: .5vh;
 text-align: left;
 }
 
