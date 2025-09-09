@@ -61,11 +61,6 @@ fill:currentColor;
 display:none !important;
 }
 
-/*a {text-decoration:underline;}
-a:link, a:visited {color:#000;}
-a:hover, a:focus{color:#c00;background-color:#f00;}
-*/
-
 .logo {
 display:block;
 margin:0 auto;
@@ -89,7 +84,7 @@ font-size: 6vh;
 font-weight: 500;
 text-align:left;
 height:14vh;
-padding:2vh;
+padding:1vh;
 margin:1vh 0 auto;
 border-radius: 0 7vh 7vh 0;
 width:100%;
@@ -100,7 +95,7 @@ top: 0; left: 0; bottom: 0;
 color:#fff;
 display: block;
 width:100%;
-padding:8vh 0 2vh 2vh;
+padding-top:7vh;
 text-decoration: none;
 border-radius:0 7vh 7vh 0;
 letter-spacing: .5vh;
