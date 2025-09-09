@@ -16,14 +16,14 @@ iframe,
 section,
 embed,
 video {
-	max-width:100%;
+max-width:100%;
 }
 
 /* conserver le ratio des images */
 img {
-	height:auto;
+height:auto;
 }
-	
+
 /* gestion des mots longs */
 
 textarea,
@@ -33,36 +33,34 @@ th,
 code,
 pre,
 samp {
-	hyphens:auto;
-	word-wrap:break-word; /* passage à la ligne forcé */
+hyphens:auto;
+word-wrap:break-word; /* passage à la ligne forcé */
 }
-	
+
 code,
 samp {
-	white-space:pre-wrap; /* passage à la ligne spécifique pour les éléments à chasse  fixe */
+white-space:pre-wrap; /* passage à la ligne spécifique pour les éléments à chassefixe */
 }
 
 body {
 max-width:600px;
-	border:1px solid #f00;
 margin:auto 0;
 padding:0;
 font-family:"Helvetica Neue LT Std 55 Roman", Helvetica, Arial, sans-serif;
 font-style:normal;
 text-align:center;
 color:#000;
-font-size:3.5em;
-font-size:3.5vw;
+font-size:4em;
+font-size:4vw;
 }
 
 svg {
 fill:currentColor;
 }
 /* masquer les éléments superflus */
-.hidden {
-	display:none !important;
+.p-honorific-prefix,.p-tel > .type {
+display:none !important;
 }
-
 
 /*a {text-decoration:underline;}
 a:link, a:visited {color:#000;}
@@ -70,12 +68,12 @@ a:hover, a:focus{color:#c00;background-color:#f00;}
 */
 
 .logo {
-  display:block;
-  margin:0 auto;
-  width:50vw;
-}	
+display:block;
+margin:0 auto;
+width:50vw;
+}
 ul {
-	position: relative;
+position: relative;
 list-style-type:none;
 display:block;
 margin:0 auto 1em;
@@ -84,44 +82,34 @@ padding:0;
 }
 
 .h-card {
-    position: relative; /* pour que le lien se cale sur le li */
-	display:block;
-	background-color:#0060ae;
-	color:#fff;
-	font-size: 6vw;
-	font-weight: 500;
-	text-align:left;
-    height:14vh;
-	padding:2vh;
-	margin:1vh 0 auto;
-	border-radius: 0 7vh 7vh 0;
-	width:100%;
+position: relative; /* pour que le lien se cale sur le li */
+display:block;
+background-color:#0060ae;
+color:#fff;
+font-size: 6vw;
+font-weight: 500;
+text-align:left;
+height:14vh;
+padding:2vh;
+margin:1vh 0 auto;
+border-radius: 0 7vh 7vh 0;
+width:100%;
 }
 .h-card a {
-	position: absolute;
-    top: 0; left: 0; bottom: 0;
-	color:#fff;
-  	display: block;
-	width:100%;
-	padding:8vh 0 2vh 2vh;
-  	text-decoration: none;
-  	border-radius:  0 7vh 7vh 0;
-  	letter-spacing: .5vw;
-  	text-align: left;
+position: absolute;
+top: 0; left: 0; bottom: 0;
+color:#fff;
+display: block;
+width:100%;
+padding:8vh 0 2vh 2vh;
+text-decoration: none;
+border-radius:0 7vh 7vh 0;
+letter-spacing: .5vw;
+text-align: left;
 }
 
 /* Survol */
 .h-card a:hover,.h-card a:active {
-  background-color: #88898C;
+background-color: #88898C;
 }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width:600px) {
-	body {
-		font-size:4em;
-		font-size:4vw;
-	}
-	.p-honorific-prefix,.p-tel > .type {
-		display:none !important;
-    }
 }
