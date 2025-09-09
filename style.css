@@ -50,7 +50,7 @@ font-family:"Helvetica Neue LT Std 55 Roman", Helvetica, Arial, sans-serif;
 font-style:normal;
 text-align:center;
 color:#000;
-font-size:4em;
+font-size:1em;
 }
 
 svg {
@@ -81,7 +81,7 @@ position: relative; /* pour que le lien se cale sur le li */
 display:block;
 background-color:#0060ae;
 color:#fff;
-font-size: 6vh;
+font-size: 6em;
 font-weight: 500;
 text-align:left;
 height:14vh;
