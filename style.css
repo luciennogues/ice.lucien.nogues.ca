@@ -76,10 +76,10 @@ a:hover, a:focus{color:#c00;background-color:#f00;}
 }	
 ul {
 list-style-type:none;
-	  display:block;
+display:block;
 margin:0 auto 1em;
-	width:100%;
-    width:100vw;
+width:100%;
+width:100vw;
 padding:0;
 }
 
@@ -112,10 +112,7 @@ padding:0;
 /* Survol */
 .h-card a:hover,.h-card a:active {
   background-color: #88898C;
-
 }
-
-
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width:700px) {
