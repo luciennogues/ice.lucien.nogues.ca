@@ -76,11 +76,11 @@ a:hover, a:focus{color:#c00;background-color:#f00;}
   width:50vw;
 }	
 ul {
+	position: relative;
 list-style-type:none;
 display:block;
 margin:0 auto 1em;
 width:100%;
-width:100vw;
 padding:0;
 }
 
