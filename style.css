@@ -60,6 +60,9 @@ fill:currentColor;
 display:none !important;
 }
 
+h1 {
+  font-size: 10vw;
+}
 .logo {
 display:block;
 margin:0 auto;
