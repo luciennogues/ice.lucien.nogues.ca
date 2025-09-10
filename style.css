@@ -72,7 +72,7 @@ width:50vw;
 }
 .cellcall{
     position: absolute;
-  top: 0; right: 0; bottom: 0;
+  top: 0; right: 1vw; bottom: 0;
     display: block;
     margin: 0;
 height:18vw;
