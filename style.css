@@ -72,10 +72,10 @@ width:50vw;
 }
 .cellcall{
 position: absolute;
-top: 1vw; right: 1vw; bottom: 1vw;
+top: 1vw; right: 2vw; bottom: 1vw;
 display: block;
 margin: 0;
-height:18vw;
+height:16vw;
 }
 ul {
 position: relative;
