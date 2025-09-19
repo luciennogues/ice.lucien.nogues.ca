@@ -85,6 +85,7 @@ height:16vw;
 ul {
 position: relative;
 list-style-type:none;
+  text-align:left;
 display:block;
 margin:0 auto 1em;
 width:100%;
