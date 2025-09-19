@@ -129,6 +129,8 @@ padding-top:5vw
       body {
         position: relative;
         max-width: 800px;
-        font-size:4em;
+      }
+      .h-card {
+        width:800px;
       }
     }
