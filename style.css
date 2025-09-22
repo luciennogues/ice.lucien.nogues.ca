@@ -134,4 +134,7 @@ padding-top:5vw
         width:800px;
         font-size: .8em;
       }
+      .h-card a {
+        max-width:800px;
+      }
     }
