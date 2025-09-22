@@ -132,9 +132,9 @@ padding-top:5vw
       }
       .h-card {
         width:800px;
-        font-size: .8em;
+        font-size: .7em;
       }
       .h-card a {
-        max-width:800px;
+        max-width:600px;
       }
     }
