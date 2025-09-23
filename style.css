@@ -133,6 +133,7 @@ padding-top:5vw
       .h-card {
         width:800px;
         font-size: .5em;
+        font-weight: 500;
       }
       .h-card a {
         max-width:600px;
