@@ -45,7 +45,6 @@ white-space:pre-wrap; /* passage à la ligne spécifique pour les éléments à 
 body {
 margin:auto 0;
 padding:0;
-  width:600px;
 font-family:"Helvetica Neue LT Std 55 Roman", Helvetica, Arial, sans-serif;
 font-style:normal;
 text-align:center;
@@ -129,10 +128,10 @@ padding-top:5vw
     @media (min-width: 800px) {
       body {
         position: relative;
-        max-width: 800px;
+        max-width: 600px;
       }
       .h-card {
-        width:800px;
+        width:600px;
         font-size: .5em;
         font-weight: 500;
       }
