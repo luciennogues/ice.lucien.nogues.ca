@@ -65,6 +65,7 @@ h1 {
   padding:0;
   margin:0 auto;
 }
+h1 > span {float:left;}
 #logo {
 display:block;
 margin:0 0 0 auto;
