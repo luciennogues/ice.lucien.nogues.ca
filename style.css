@@ -65,7 +65,10 @@ h1 {
   padding:0;
   margin:0 auto;
 }
-h1 > span {float:left;
+h1 > span {
+  position:relative;
+  top:0;
+  float:left;
           display:block;
 margin:0 auto 0 0;
 width:48vw;
